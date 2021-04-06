@@ -32,7 +32,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
 }
 #reset{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -130,9 +130,39 @@ h2{
 }
 #secondHand{
     position: absolute;
+    height: 60px;
+    border: 1px solid black;
+    left: 49%;
+    bottom: 45%;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+}
+#minuteHand{
+    position: absolute;
     height: 80px;
     border: 2px solid black;
     left: 49%;
     bottom: 45%;
     transform: rotate(0deg);
+    transform-origin: bottom;
+}
+#hourHand{
+    position: absolute;
+    height: 60px;
+    border: 3px solid black;
+    left: 49%;
+    bottom: 45%;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+}
+.style{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    text-align: center;
+}
+.options{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
