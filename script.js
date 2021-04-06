@@ -30,7 +30,7 @@ function startButton(){
 to the dummy function "nothing" so if the user clicks the start button it won't stack*/
 function start(){
     secondsUp()
-    button.onclick = nothing();
+    button.setAttribute( "onClick", "javascript: nothing();" );
 }
 
 //function that increments the seconds variable/display
@@ -70,7 +70,7 @@ function minutesUp(){
     }
     display.innerHTML = hours + ":" + minutes + ":" + seconds;
 }
-function minutesUp(){
+function hoursUp(){
     if (parseInt(hours) != 59){
         if (parseInt(hours) < 9){
             hours = parseInt(hours) + 1;
@@ -86,9 +86,8 @@ function minutesUp(){
 
 function stop(){
     clearInterval(interval);
-    button.onclick = start()
+    button.setAttribute( "onClick", "javascript: startButton();" );
 }
-
-function nothing(){
+    function nothing(){
     console.log("the dummy function has been called");
 }
