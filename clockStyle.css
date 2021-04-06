@@ -1,0 +1,138 @@
+body{
+    background: linear-gradient(45deg, cornflowerblue, white);
+}
+#clock{
+    position: relative;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: 4px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11em;
+    text-align: center;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    text-align: center;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    text-align: center;
+}
+.buttons{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 150px;
+}
+#reset{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    margin-right: 20px;
+}
+#start{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    margin-right: 20px;
+}
+#stop{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+}
+#noon{
+    font-size: 20px;
+}
+#one{
+    font-size: 20px;
+    transform: rotate(30deg);
+    position: relative;
+    bottom: 7px;
+    left: 45px;
+}
+#two{
+    font-size: 20px;
+    transform: rotate(60deg);
+    position: relative;
+    top: 8px;
+    left: 77px;
+}
+#three{
+    font-size: 20px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 29px;
+    left: 85px;
+}
+#four{
+    font-size: 20px;
+    transform: rotate(120deg);
+    position: relative;
+    top: 45px;
+    left: 70px;
+}
+#five{
+    font-size: 20px;
+    transform: rotate(150deg);
+    position: relative;
+    left: 40px;
+    top: 51px;
+}
+#six{
+    font-size: 20px;
+    transform: rotate(180deg);
+    position: relative;
+    left: 0px;
+    top: 38px;
+}
+#seven{
+    font-size: 20px;
+    transform: rotate(210deg);
+    position: relative;
+    right: 40px;
+    top: 6px;
+}
+#eight{
+    font-size: 20px;
+    transform: rotate(240deg);
+    position: relative;
+    right: 70px;
+    bottom: 45px;
+}
+#nine{
+    font-size: 20px;
+    transform: rotate(270deg);
+    position: relative;
+    right: 87px;
+    bottom: 110px;
+}
+#ten{
+    font-size: 20px;
+    transform: rotate(300deg);
+    position: relative;
+    right: 77px;
+    bottom: 177px;
+}
+#eleven{
+    font-size: 20px;
+    transform: rotate(330deg);
+    position: relative;
+    right: 50px;
+    bottom: 238px;
+}
+#secondHand{
+    position: absolute;
+    height: 80px;
+    border: 2px solid black;
+    left: 49%;
+    bottom: 45%;
+    transform: rotate(0deg);
+}
